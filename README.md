@@ -1,17 +1,17 @@
-# PayOk API для ваших проектов на Python!
+﻿# PayOk API для ваших проектов на Python!
 
 Официальная документация: **https://payok.io/cabinet/documentation/doc_main.php**
 
 ## Как установить? 
 
-```pip install payok-api```
+```pip install payokapipy```
 
 ## Примеры кода
 
 ```python
-from payok import AuthPayOk
+from PayOkApiPy import payok
 
-api = AuthPayOk("API_KEY", API_ID) # Сюда вставляете свой токен и айди
+api = payok.AuthPayOk("API_KEY", API_ID) # Сюда вставляете свой токен и айди
 
 # Получение баланса
 
