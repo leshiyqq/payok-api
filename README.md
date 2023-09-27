@@ -4,12 +4,12 @@
 
 ## Как установить? 
 
-```pip install payokapipy```
+```pip install payokioapi```
 
 ## Примеры кода
 
 ```python
-from PayOkApiPy import payok
+from payokioapi import payok
 
 api = payok.AuthPayOk("API_KEY", API_ID) # Сюда вставляете свой токен и айди
 
